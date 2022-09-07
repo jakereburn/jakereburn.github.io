@@ -245,6 +245,153 @@
                </div>
              </div>
            </div>
+        <div ID = "nav" class="nav">
+        <div class="navLeft">
+            
+            <div ID="menu" class="menu">
+                <div class="groupe" ID="">
+                <div ID="symbols" class ="item" onclick="viewer.hideMenu(); viewer.symbolViewer.toggle();; return false; ">
+                    <svg class ='svgIcon'><use xlink: href="#icElementInspector"></use></svg>
+                    <span>Handoff</span>
+                    <div class ="tips">M</div>
+                </div>
+                
+                <div ID="embed" class ="item" onclick="viewer.hideMenu(); viewer.share();; return false; ">
+                    <svg class ='svgIcon'><use xlink: href="#icEmbed"></use></svg>
+                    <span>Embed code</span>
+                    <div class ="tips">E</div>
+                </div>
+                
+                <div ID="img" class ="item" onclick="viewer.hideMenu(); viewer.openFulImage();; return false; ">
+                    <svg class ='svgIcon'><use xlink: href="#icImage2"></use></svg>
+                    <span>Full page image</span>
+                    <div class ="tips">I</div>
+                </div>
+                
+                <div ID="menu_comments_viewer" class ="item hidden" onclick="viewer.hideMenu(); viewer.commentsViewer.toggle();; return false; ">
+                    <svg class ='svgIcon'><use xlink: href="#icAnnotation"></use></svg>
+                    <span>Comments</span>
+                    <div class ="tips">C</div>
+                </div>
+                </div><hr>
+
+            <div class="groupe">
+                <div ID="" class="item sub">
+            <svg class ="svgIcon"><use xlink: href="#icSettings"></use></svg>
+                <span>Settings</span>
+                    <div class ="tips">
+                        <svg class ='svgIcon'><use xlink: href="#icArrwRight"></use></svg>
+                    </div>
+                    <div class="submenu">
+                        <div class="groupe">
+            
+                <div ID="links-div" class ="item item-switcher">
+                    <div class="checkbox-container" onclick="document.getElementById('links').checked=!document.getElementById('links').checked;viewer.toggleLinks(undefined,false);;">
+                        <input type="checkbox" ID="links" onclick="viewer.toggleLinks(undefined,false);; return true;" />
+                        <label for="links"></label>
+                        <span class="checkbox-label">Hot spots</span>
+                    </div>
+                    <div class ="tips">Shift</div>
+                </div>
+                
+                <div ID="zoom-div" class ="item item-switcher">
+                    <div class="checkbox-container" onclick="document.getElementById('zoom').checked=!document.getElementById('zoom').checked;viewer.toggleZoom(undefined,false);;">
+                        <input type="checkbox" ID="zoom" onclick="viewer.toggleZoom(undefined,false);; return true;" />
+                        <label for="zoom"></label>
+                        <span class="checkbox-label">Autoscale</span>
+                    </div>
+                    <div class ="tips">Z</div>
+                </div>
+                
+                <div ID="pagegrid-div" class ="item item-switcher">
+                    <div class="checkbox-container" onclick="document.getElementById('pagegrid').checked=!document.getElementById('pagegrid').checked;viewer.toogleLayout(undefined,false);;">
+                        <input type="checkbox" ID="pagegrid" onclick="viewer.toogleLayout(undefined,false);; return true;" />
+                        <label for="pagegrid"></label>
+                        <span class="checkbox-label">Grid layout</span>
+                    </div>
+                    <div class ="tips">L</div>
+                </div>
+                
+                <div ID="ui-div" class ="item item-switcher">
+                    <div class="checkbox-container" onclick="document.getElementById('ui').checked=!document.getElementById('ui').checked;viewer.toogleUI();">
+                        <input type="checkbox" ID="ui" onclick="viewer.toogleUI(); return true;" checked/>
+                        <label for="ui"></label>
+                        <span class="checkbox-label">Viewer controls</span>
+                    </div>
+                    <div class ="tips">N</div>
+                </div>
+                
+                <div ID="fullscreen-div" class ="item item-switcher">
+                    <div class="checkbox-container" onclick="document.getElementById('fullscreen').checked=!document.getElementById('fullscreen').checked;viewer.hideMenu();viewer.toogleFullScreen(undefined,false);;">
+                        <input type="checkbox" ID="fullscreen" onclick="viewer.hideMenu();viewer.toogleFullScreen(undefined,false);; return true;" />
+                        <label for="fullscreen"></label>
+                        <span class="checkbox-label">Full screen</span>
+                    </div>
+                    <div class ="tips">F</div>
+                </div>
+                
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <hr>
+<div class="groupe" ID="">
+                <div ID="" class ="item" onclick="viewer.hideMenu(); viewer.galleryViewer.show(); return false; ">
+                    <svg class ='svgIcon'><use xlink: href="#icGrid"></use></svg>
+                    <span>View all screens</span>
+                    <div class ="tips">G</div>
+                </div>
+                
+                <div ID="start" class ="item" onclick="viewer.hideMenu(); viewer.goToPage(0); return false; ">
+                    <svg class ='svgIcon'><use xlink: href="#icBack"></use></svg>
+                    <span>Go to start</span>
+                    <div class ="tips">S</div>
+                </div>
+                
+                <div ID="play" class ="item" onclick="viewer.hideMenu(); viewer.presenterViewer.play(); return false; ">
+                    <svg class ='svgIcon'><use xlink: href="#icPlay"></use></svg>
+                    <span>Play</span>
+                    <div class ="tips">P</div>
+                </div>
+                </div>
+        </div>
+            
+                <div ID = "btnMenu" class="btnMenu" onclick = "viewer.showMenu()">
+                    <svg class='svgIcon'><use xlink:href="#icMenu"></use></svg>
+        </div>
+        <!--Button to embed mode-->
+        <div ID="btnOpenNew" style='display:none' class="btnMenu" onclick="viewer.openNewWindow();return false;">
+            <svg class='svgIcon'><use xlink:href="#icResize"></use></svg>
+        </div>
+        <!--Next / Back button-->
+                <div class="navPreviewNext">
+                    <div ID="nav-left-prev" class="btnPreview" onclick="viewer.previous(); return false;" title="Previous screen">
+                        <svg class='svgIcon'><use xlink:href="#icArrwLeft"></use></svg>
+                    </div>
+                    <div ID="nav-left-next" class="btnNext" onclick="viewer.next(); return false;" title="Next screen"><svg class='svgIcon'><use xlink:href="#icArrwRight"></use></svg></div>
+                </div>
+        </div>
+                <div class="navCenter">
+                    <div class="pageName title">Default button</div>
+                    <div ID="info_viewer_options" class="infoViewerMode hidden">
+                        <input type="radio" name="info_viewer_mode" ID="info_viewer_mode_diff" value="diff" checked onclick="viewer.infoViewer.pageChanged()" disabled /><label for="info_viewer_mode_diff">Differences</label>
+                        <input type="radio" name="info_viewer_mode" ID="info_viewer_mode_prev" value="prev" onclick="viewer.infoViewer.pageChanged()" disabled><label for="info_viewer_mode_prev">Prev version</label>
+                            <input type="radio" name="info_viewer_mode" ID="info_viewer_mode_new" value="new " onclick="viewer.infoViewer.pageChanged()" disabled><label for="info_viewer_mode_new">New version</label>
+                            </div>
+                    </div>
+                    <div class="navRight">
+                        <div ID="loading" class="hidden">
+                            <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+                        </div>
+                        <div ID="pageComments" onclick="commentsViewer.toggle(); return false;" class="hidden">
+                            <svg class="svgIcon"> <use xlink:href="#icAddComment"></use></svg>
+                            <div ID="counter"></div>
+                        </div>
+                        <div ID="experimental" onclick="viewer.expViewer.toggle();return false;" class="hidden">
+                            <svg class="svgIcon"> <use xlink:href="#icExperimental"></use></svg>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
                 
