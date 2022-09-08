@@ -1,5 +1,5 @@
 var story = {
- "docName": "sketch-document",
+ "docName": "mobile",
  "docPath": "P_P_P",
  "docVersion": "V_V_V",
  "ownerName": "",
@@ -13,7 +13,7 @@ var story = {
  "fileType": "png",
  "disableHotspots": false,
  "zoomEnabled": true,
- "title": "Sketch Document",
+ "title": "mobile",
  "layersExist": true,
  "centerContent": false,
  "highlightLinks": false,
@@ -708,7 +708,7 @@ var story = {
       "height": 47
      },
      "isParentFixed": false,
-     "action": "back",
+     "page": 3,
      "index": 0
     }
    ]
@@ -941,10 +941,6 @@ var story = {
   }
  ],
  "groups": [
-  {
-   "id": "8794254D-6984-44C5-B031-E4A8FDDC2493",
-   "name": "Page 1"
-  },
   {
    "id": "875E3F3C-D40A-44B3-B5B9-5F00A9F8304E",
    "name": "Exisitng Mobile Structure"

@@ -248,7 +248,7 @@ var story = {
       "height": 53
      },
      "isParentFixed": false,
-     "page": 17,
+     "page": 18,
      "index": 0
     },
     {
@@ -259,7 +259,7 @@ var story = {
       "height": 353
      },
      "isParentFixed": false,
-     "page": 16,
+     "page": 17,
      "index": 1
     },
     {
@@ -3241,9 +3241,44 @@ var story = {
    ]
   },
   {
-   "id": "BC3824DB-40D2-4B49-9D95-620220A5C7DC",
+   "id": "D4348813-C571-46B0-BE55-C910423C06B4",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
    "index": 16,
+   "image": "log_in.png",
+   "image2x": "log_in@2x.png",
+   "width": 1440,
+   "height": 830,
+   "x": -207,
+   "y": 25632,
+   "title": "Log In",
+   "transAnimType": 0,
+   "layout": {
+    "offset": 0,
+    "totalWidth": 960,
+    "numberOfColumns": 12,
+    "columnWidth": 60,
+    "gutterWidth": 20
+   },
+   "type": "regular",
+   "fixedPanels": [],
+   "links": [
+    {
+     "rect": {
+      "x": 0,
+      "y": -70,
+      "width": 1440,
+      "height": 900
+     },
+     "isParentFixed": false,
+     "page": 0,
+     "index": 0
+    }
+   ]
+  },
+  {
+   "id": "BC3824DB-40D2-4B49-9D95-620220A5C7DC",
+   "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
+   "index": 17,
    "image": "client_management_view_client.png",
    "image2x": "client_management_view_client@2x.png",
    "width": 1440,
@@ -3270,7 +3305,7 @@ var story = {
       "height": 45
      },
      "isParentFixed": false,
-     "page": 36,
+     "page": 37,
      "index": 0
     },
     {
@@ -3465,7 +3500,7 @@ var story = {
   {
    "id": "3765ACAD-7392-4C2B-9766-240A0A158832",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 17,
+   "index": 18,
    "image": "client_management_new_client.png",
    "image2x": "client_management_new_client@2x.png",
    "width": 1440,
@@ -3665,7 +3700,7 @@ var story = {
   {
    "id": "9BAA5060-24D8-4371-B29A-EB2973B00F2D",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 18,
+   "index": 19,
    "image": "user_management_view_user_(permissions).png",
    "image2x": "user_management_view_user_(permissions)@2x.png",
    "width": 1440,
@@ -3865,7 +3900,7 @@ var story = {
   {
    "id": "C1BE2F67-0E2B-43BF-8521-AD547CB1EC88",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 19,
+   "index": 20,
    "image": "user_management_edit_user_(permissions).png",
    "image2x": "user_management_edit_user_(permissions)@2x.png",
    "width": 1440,
@@ -4065,7 +4100,7 @@ var story = {
   {
    "id": "274F8271-A41A-47CF-B4FC-597603949876",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 20,
+   "index": 21,
    "image": "user_management_new_user_(permissions).png",
    "image2x": "user_management_new_user_(permissions)@2x.png",
    "width": 1440,
@@ -4265,7 +4300,7 @@ var story = {
   {
    "id": "5B194690-22BC-46B8-8BBA-F0E2B4E2CE4E",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 21,
+   "index": 22,
    "image": "user_management_upload_user.png",
    "image2x": "user_management_upload_user@2x.png",
    "width": 1440,
@@ -4465,7 +4500,7 @@ var story = {
   {
    "id": "B0F2FCF4-7C08-4A28-B69D-DD89C3E7E846",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 22,
+   "index": 23,
    "image": "status_report_view_report.png",
    "image2x": "status_report_view_report@2x.png",
    "width": 1440,
@@ -4665,7 +4700,7 @@ var story = {
   {
    "id": "6525FF99-9BB4-418A-A1C4-8B9675DB3181",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 23,
+   "index": 24,
    "image": "group_management_view_group.png",
    "image2x": "group_management_view_group@2x.png",
    "width": 1440,
@@ -4865,7 +4900,7 @@ var story = {
   {
    "id": "15658105-708E-4EEE-A500-EA8E44F4FE51",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 24,
+   "index": 25,
    "image": "group_management_new_group.png",
    "image2x": "group_management_new_group@2x.png",
    "width": 1440,
@@ -5065,7 +5100,7 @@ var story = {
   {
    "id": "15DA66F3-6B63-41DD-8E7D-8FE4C6C51F06",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 25,
+   "index": 26,
    "image": "group_permissions_view_group.png",
    "image2x": "group_permissions_view_group@2x.png",
    "width": 1440,
@@ -5265,7 +5300,7 @@ var story = {
   {
    "id": "D46277CA-7D5B-4634-B799-50D9B5166AD8",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 26,
+   "index": 27,
    "image": "group_permissions_new_group.png",
    "image2x": "group_permissions_new_group@2x.png",
    "width": 1440,
@@ -5465,7 +5500,7 @@ var story = {
   {
    "id": "43E0A5EA-94E0-40DD-B8FE-DE8EBB67D53B",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 27,
+   "index": 28,
    "image": "device_management_view_device.png",
    "image2x": "device_management_view_device@2x.png",
    "width": 1440,
@@ -5665,7 +5700,7 @@ var story = {
   {
    "id": "F61D014E-A961-42B0-8CD5-122A1AF0A40E",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 28,
+   "index": 29,
    "image": "device_management_new_device.png",
    "image2x": "device_management_new_device@2x.png",
    "width": 1440,
@@ -5865,7 +5900,7 @@ var story = {
   {
    "id": "BF77C886-ADCD-43BB-BB89-B61D58297165",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 29,
+   "index": 30,
    "image": "device_management_upload_device.png",
    "image2x": "device_management_upload_device@2x.png",
    "width": 1440,
@@ -6065,7 +6100,7 @@ var story = {
   {
    "id": "3BB71176-7BE9-42BF-96A4-6ABB160E4217",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 30,
+   "index": 31,
    "image": "form_design_view_form_(information).png",
    "image2x": "form_design_view_form_(information)@2x.png",
    "width": 1440,
@@ -6265,7 +6300,7 @@ var story = {
   {
    "id": "10BD2FFD-57C2-45F5-B8EC-1D97A171E7E7",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 31,
+   "index": 32,
    "image": "form_view_view_submissions.png",
    "image2x": "form_view_view_submissions@2x.png",
    "width": 1440,
@@ -6465,7 +6500,7 @@ var story = {
   {
    "id": "FD9D000D-9D49-4810-A2AE-00BED28DB0E5",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 32,
+   "index": 33,
    "image": "prepopulation_view_user.png",
    "image2x": "prepopulation_view_user@2x.png",
    "width": 1440,
@@ -6665,7 +6700,7 @@ var story = {
   {
    "id": "FE6499DB-C696-4E4A-AED3-6385FBBAB9F7",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 33,
+   "index": 34,
    "image": "prepopulation_upload.png",
    "image2x": "prepopulation_upload@2x.png",
    "width": 1440,
@@ -6865,7 +6900,7 @@ var story = {
   {
    "id": "973FF7B3-C451-4A33-98B7-2420F32A5929",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 34,
+   "index": 35,
    "image": "web_forms_view_form.png",
    "image2x": "web_forms_view_form@2x.png",
    "width": 1440,
@@ -7065,7 +7100,7 @@ var story = {
   {
    "id": "0DB4BDC9-AD4E-4C22-BFEE-743578EF4329",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 35,
+   "index": 36,
    "image": "system_management_(group_details).png",
    "image2x": "system_management_(group_details)@2x.png",
    "width": 1440,
@@ -7265,7 +7300,7 @@ var story = {
   {
    "id": "2AB2B651-3E42-4C95-A376-019E43014201",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 36,
+   "index": 37,
    "image": "client_management_edit_view_client.png",
    "image2x": "client_management_edit_view_client@2x.png",
    "width": 1440,
@@ -7476,7 +7511,7 @@ var story = {
   {
    "id": "6679C62B-F55C-4766-8FAC-97A73E831DBB",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 37,
+   "index": 38,
    "image": "user_management_view_user_(devices).png",
    "image2x": "user_management_view_user_(devices)@2x.png",
    "width": 1440,
@@ -7676,7 +7711,7 @@ var story = {
   {
    "id": "8561BD3D-F380-49C0-B5D2-AA28E3A040C9",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 38,
+   "index": 39,
    "image": "user_management_edit_user_(devices).png",
    "image2x": "user_management_edit_user_(devices)@2x.png",
    "width": 1440,
@@ -7876,7 +7911,7 @@ var story = {
   {
    "id": "E25AA9D5-AE64-4F92-9867-3FB43E22BE8E",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 39,
+   "index": 40,
    "image": "user_management_new_user_(devices).png",
    "image2x": "user_management_new_user_(devices)@2x.png",
    "width": 1440,
@@ -8076,7 +8111,7 @@ var story = {
   {
    "id": "EE93C06B-726D-49D6-9B88-AAF5B91B3F70",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 40,
+   "index": 41,
    "image": "group_permissions_edit_view_group.png",
    "image2x": "group_permissions_edit_view_group@2x.png",
    "width": 1440,
@@ -8276,7 +8311,7 @@ var story = {
   {
    "id": "6DEDF418-E956-4A23-920A-564D0233C327",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 41,
+   "index": 42,
    "image": "device_management_edit_view_device.png",
    "image2x": "device_management_edit_view_device@2x.png",
    "width": 1440,
@@ -8476,7 +8511,7 @@ var story = {
   {
    "id": "A6F0F54B-7420-4A7C-A8DC-B07E13FC2AC3",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 42,
+   "index": 43,
    "image": "form_design_view_form_(download).png",
    "image2x": "form_design_view_form_(download)@2x.png",
    "width": 1440,
@@ -8676,7 +8711,7 @@ var story = {
   {
    "id": "EA869635-C10A-4B5C-846E-A36E33898916",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 43,
+   "index": 44,
    "image": "form_view_view_submission.png",
    "image2x": "form_view_view_submission@2x.png",
    "width": 1440,
@@ -8876,7 +8911,7 @@ var story = {
   {
    "id": "B70F67FF-79FC-42BD-A182-8BB5BC9E933F",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 44,
+   "index": 45,
    "image": "system_management_(device_details).png",
    "image2x": "system_management_(device_details)@2x.png",
    "width": 1440,
@@ -9076,7 +9111,7 @@ var story = {
   {
    "id": "EA8CB4F2-7AC1-4563-AD0C-5AF4600B0ED4",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 45,
+   "index": 46,
    "image": "user_management_view_user_(groups).png",
    "image2x": "user_management_view_user_(groups)@2x.png",
    "width": 1440,
@@ -9276,7 +9311,7 @@ var story = {
   {
    "id": "F4881435-8EFC-4C06-A2FD-DC2AD3E10CA8",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 46,
+   "index": 47,
    "image": "user_management_edit_user_(groups).png",
    "image2x": "user_management_edit_user_(groups)@2x.png",
    "width": 1440,
@@ -9476,7 +9511,7 @@ var story = {
   {
    "id": "8BFADA8E-AE70-4F5B-9911-8731DF1097E9",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 47,
+   "index": 48,
    "image": "user_management_new_user_(groups).png",
    "image2x": "user_management_new_user_(groups)@2x.png",
    "width": 1440,
@@ -9676,7 +9711,7 @@ var story = {
   {
    "id": "3C4BDAF9-0ABC-4CD8-89AF-9ED197B95DD2",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 48,
+   "index": 49,
    "image": "system_management_(search_devices).png",
    "image2x": "system_management_(search_devices)@2x.png",
    "width": 1440,
@@ -9876,7 +9911,7 @@ var story = {
   {
    "id": "1783E9D8-DE71-4CEE-A53A-27D4397FADCF",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 49,
+   "index": 50,
    "image": "system_management_(re_process).png",
    "image2x": "system_management_(re_process)@2x.png",
    "width": 1440,
@@ -10076,7 +10111,7 @@ var story = {
   {
    "id": "1719C840-5AB9-408A-9BD7-198762978F9C",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 50,
+   "index": 51,
    "image": "system_management_(client_branding).png",
    "image2x": "system_management_(client_branding)@2x.png",
    "width": 1440,
@@ -10276,7 +10311,7 @@ var story = {
   {
    "id": "F72EBF15-B1A3-43D1-BEDB-97C908719547",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 51,
+   "index": 52,
    "image": "system_management_(web_fleet).png",
    "image2x": "system_management_(web_fleet)@2x.png",
    "width": 1440,
@@ -10476,7 +10511,7 @@ var story = {
   {
    "id": "788B2A88-194B-4986-9B0C-8516EE6E4BFB",
    "groupID": "5A1CE267-2E3D-4C5C-98B7-AEC168087973",
-   "index": 52,
+   "index": 53,
    "image": "system_management_(state_webservices).png",
    "image2x": "system_management_(state_webservices)@2x.png",
    "width": 1440,
@@ -10682,5 +10717,5 @@ var story = {
  ],
  "experimentalExisting": false,
  "startPageIndex": 0,
- "totalImages": 53
+ "totalImages": 54
 }
