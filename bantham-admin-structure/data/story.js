@@ -215,6 +215,17 @@ var story = {
      "isParentFixed": false,
      "page": 0,
      "index": 15
+    },
+    {
+     "rect": {
+      "x": 10,
+      "y": 152,
+      "width": 178,
+      "height": 27
+     },
+     "isParentFixed": false,
+     "page": 16,
+     "index": 16
     }
    ]
   },
@@ -448,17 +459,6 @@ var story = {
      "isParentFixed": false,
      "page": 16,
      "index": 18
-    },
-    {
-     "rect": {
-      "x": 22,
-      "y": 275,
-      "width": 178,
-      "height": 27
-     },
-     "isParentFixed": false,
-     "page": 16,
-     "index": 19
     }
    ]
   },
