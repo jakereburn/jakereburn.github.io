@@ -189,17 +189,6 @@ var story = {
    "links": [
     {
      "rect": {
-      "x": 0,
-      "y": 0,
-      "width": 414,
-      "height": 896
-     },
-     "isParentFixed": false,
-     "page": 13,
-     "index": 0
-    },
-    {
-     "rect": {
       "x": 352,
       "y": 52,
       "width": 57,
@@ -207,7 +196,7 @@ var story = {
      },
      "isParentFixed": false,
      "page": 14,
-     "index": 1
+     "index": 0
     },
     {
      "rect": {
@@ -218,7 +207,7 @@ var story = {
      },
      "isParentFixed": false,
      "page": 1,
-     "index": 2
+     "index": 1
     },
     {
      "rect": {
@@ -229,7 +218,7 @@ var story = {
      },
      "isParentFixed": false,
      "page": 0,
-     "index": 3
+     "index": 2
     },
     {
      "rect": {
@@ -240,7 +229,7 @@ var story = {
      },
      "isParentFixed": false,
      "page": 10,
-     "index": 4
+     "index": 3
     },
     {
      "rect": {
@@ -251,7 +240,7 @@ var story = {
      },
      "isParentFixed": false,
      "page": 12,
-     "index": 5
+     "index": 4
     },
     {
      "rect": {
@@ -262,7 +251,7 @@ var story = {
      },
      "isParentFixed": false,
      "page": 13,
-     "index": 6
+     "index": 5
     }
    ]
   },
@@ -947,6 +936,6 @@ var story = {
   }
  ],
  "experimentalExisting": false,
- "startPageIndex": 0,
+ "startPageIndex": 9,
  "totalImages": 15
 }
