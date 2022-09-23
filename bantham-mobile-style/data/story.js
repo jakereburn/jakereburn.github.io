@@ -996,7 +996,7 @@ var story = {
       "height": 38
      },
      "isParentFixed": false,
-     "page": 13,
+     "page": 24,
      "index": 3
     },
     {
@@ -1007,7 +1007,7 @@ var story = {
       "height": 38
      },
      "isParentFixed": false,
-     "page": 13,
+     "page": 24,
      "index": 4
     },
     {
@@ -1018,7 +1018,7 @@ var story = {
       "height": 38
      },
      "isParentFixed": false,
-     "page": 13,
+     "page": 24,
      "index": 5
     },
     {
